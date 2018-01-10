@@ -7,247 +7,247 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         
         <style>
-        * {
-    font-family: 'Raleway', sans-serif;
-    color: #333333;
-}
+                    * {
+                font-family: 'Raleway', sans-serif;
+                color: #333333;
+            }
 
-body {
-    height: 100%;
-}
+            body {
+                height: 100%;
+            }
 
-header {
-    line-height: 4rem;
-    padding: 5px;
-}
+            header {
+                line-height: 4rem;
+                padding: 5px;
+            }
 
-a {
-    text-decoration: none;
-    color: #669966;
-}
+            a {
+                text-decoration: none;
+                color: #669966;
+            }
 
-a:hover {
-    color: #FFCC00;
-}
+            a:hover {
+                color: #FFCC00;
+            }
 
-.green {
-    color: #669966;
-}
+            .green {
+                color: #669966;
+            }
 
-#hgreen, #green {
-    color: #669966;
-    font-weight: bold;
-}
+            #hgreen, #green {
+                color: #669966;
+                font-weight: bold;
+            }
 
 
-a:hover#green, a:hover#hgreen  {
-    color: #FFCC00;
-}
+            a:hover#green, a:hover#hgreen  {
+                color: #FFCC00;
+            }
 
-.yellow {
-    color: #FFCC00;
-}
+            .yellow {
+                color: #FFCC00;
+            }
 
-#hyellow, #yellow {
-    color: #FFCC00;
-    font-weight: bold;
-}
+            #hyellow, #yellow {
+                color: #FFCC00;
+                font-weight: bold;
+            }
 
-.brown {
-    color: #333333;
-}
+            .brown {
+                color: #333333;
+            }
 
-#home {
-    font-weight: bold;
-}
+            #home {
+                font-weight: bold;
+            }
 
-.nav {
-    width: 100%;
-    text-align: center;
-    background-color: #333333;
-    line-height: 3.5rem; 
-    position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
-    top: 0;
-}
+            .nav {
+                width: 100%;
+                text-align: center;
+                background-color: #333333;
+                line-height: 3.5rem; 
+                position: sticky;/*This value for position fails validation even though it works fine and is on the w3schools website.*/
+                top: 0;
+            }
 
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.nav li {
-    display: inline;
-}
+            .nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            .nav li {
+                display: inline;
+            }
 
-.nav a {
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    color: white;
-}
-  
-.nav a:hover {
-    color: #FFCC00;
-    background-color: #669966;
- }
- 
- #hnav {
-     background-color: #FFCC00;
- }
+            .nav a {
+                text-decoration: none;
+                text-align: center;
+                padding: 14px 16px;
+                color: white;
+            }
 
-#gnav {
-    background-color: #669966;
-}
+            .nav a:hover {
+                color: #FFCC00;
+                background-color: #669966;
+             }
 
-h1.heading {
-    display: inline;
-}
+             #hnav {
+                 background-color: #FFCC00;
+             }
 
-.mheading {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    margin-top: 10px;
-}
+            #gnav {
+                background-color: #669966;
+            }
 
-.heading, .mpheading {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-}
+            h1.heading {
+                display: inline;
+            }
 
-.content, .mpcontent {
-    font-size: 1.15rem;
-}
+            .mheading {
+                font-family: 'Playfair Display', serif;
+                font-size: 2.5rem;
+                margin-top: 10px;
+            }
 
-.mpcontent {
-    padding: 5px;
-    margin-bottom: 15px;
-}
+            .heading, .mpheading {
+                font-family: 'Playfair Display', serif;
+                font-size: 2rem;
+            }
 
-li {
-    margin-bottom: 0.5rem;
-    width: 75%;
-}
+            .content, .mpcontent {
+                font-size: 1.15rem;
+            }
 
-.list ul {
-    border-left: 1px solid #333333;
-}
+            .mpcontent {
+                padding: 5px;
+                margin-bottom: 15px;
+            }
 
-table {
-    width: 100%;
-}
+            li {
+                margin-bottom: 0.5rem;
+                width: 75%;
+            }
 
-.home {
-    width: 50%;
-    vertical-align: top;
-    padding: 5px;
-}
+            .list ul {
+                border-left: 1px solid #333333;
+            }
 
-td {
-    width: 33%;
-    margin: 10px;
-    padding: 5px;
-    vertical-align: top;
-}
+            table {
+                width: 100%;
+            }
 
-.list {
-    font-size: 1.15rem;
-    padding: 5px;
-}
+            .home {
+                width: 50%;
+                vertical-align: top;
+                padding: 5px;
+            }
 
-.padding{
-        margin: 35px 0px;
-}
+            td {
+                width: 33%;
+                margin: 10px;
+                padding: 5px;
+                vertical-align: top;
+            }
 
-h3 {
-    font-family: 'Playfair Display', serif;
-}
+            .list {
+                font-size: 1.15rem;
+                padding: 5px;
+            }
 
-.width {
-    width: 75%;
-    margin-left: 0;
-    padding: 5px;
-}
+            .padding{
+                    margin: 35px 0px;
+            }
 
-hr {
-    margin-left: 0;
-    width: 75%;
-    
-}
+            h3 {
+                font-family: 'Playfair Display', serif;
+            }
 
-.search {
-    float: right;
-}
+            .width {
+                width: 75%;
+                margin-left: 0;
+                padding: 5px;
+            }
 
-input {
-    border: 1px solid #333333;
-    padding: 10px;
-}
+            hr {
+                margin-left: 0;
+                width: 75%;
 
-button {
-    background-color: #333333;
-    color: white;
-    padding: 9px;
-    border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
-}
+            }
 
-img {
-    float: right;
-    width: 12%;
-    margin-right: 100px;
-    max-height: 12%;
-}
+            .search {
+                float: right;
+            }
 
-.backgroundimage {
-    background-image: url("../images/wascenery.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    text-align: right;
-    margin-bottom: 10px;
-}
+            input {
+                border: 1px solid #333333;
+                padding: 10px;
+            }
 
-#heading {
-    font-size: 3rem;
-    position: relative;
-    top: 250px;
-    color: white;
-}
+            button {
+                background-color: #333333;
+                color: white;
+                padding: 9px;
+                border: 2px solid #333333; /*The validator shows a warning for the border color and background color being the same. But it is the way I want it to be styled so that the button looks good.*/
+            }
 
-#content {
-    font-size: 1.5rem;
-    position: relative;
-    top: 250px;
-    color: white;
-}
+            img {
+                float: right;
+                width: 12%;
+                margin-right: 100px;
+                max-height: 12%;
+            }
 
-footer {
-    background-color: #333333;
-    color: white;
-    font-size: 0.75rem;
-    text-align: center;
-    line-height: 1.5rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+            .backgroundimage {
+                background-image: url("../images/wascenery.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 400px;
+                text-align: right;
+                margin-bottom: 10px;
+            }
 
-.whitespace {
-    height: 30px;
-}
+            #heading {
+                font-size: 3rem;
+                position: relative;
+                top: 250px;
+                color: white;
+            }
 
-.footer a {
-    color: white;
-}
+            #content {
+                font-size: 1.5rem;
+                position: relative;
+                top: 250px;
+                color: white;
+            }
 
-.footer a:hover {
-    color: #669966;
-}
+            footer {
+                background-color: #333333;
+                color: white;
+                font-size: 0.75rem;
+                text-align: center;
+                line-height: 1.5rem;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
 
-a:hover.linkcolor {
-    color: #FFCC00;
-}
+            .whitespace {
+                height: 30px;
+            }
+
+            .footer a {
+                color: white;
+            }
+
+            .footer a:hover {
+                color: #669966;
+            }
+
+            a:hover.linkcolor {
+                color: #FFCC00;
+            }
 
         </style>
     </head>
