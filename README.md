@@ -2,11 +2,11 @@
 <html>
     <head>
         <title> Welcome to Washington! </title>     
-        <link href="./styles/style.css" rel="stylesheet" type="text/css">
+        <link href="css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         
-        <style>
+        <!-- <style>
         * {
     font-family: 'Raleway', sans-serif;
     color: #333333;
@@ -249,7 +249,7 @@ a:hover.linkcolor {
     color: #FFCC00;
 }
 
-        </style>
+        </style> -->
     </head>
     <body>
         <header>
